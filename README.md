@@ -7,7 +7,7 @@
 ## 👨‍💻 About Me
 - 🎓 **SE Student** | 🚀 Passionate about **Web Development & Robotics**
 - 🔭 Currently working on **Project Altair (ERC 2024, URC 2025)**
-- 💻 Proficient in **Java, C, C++,JS,MySQL,Javascript,Mern,Python,FastAPI** | Learning **Ai/Ml**
+- 💻 Proficient in **Java, C, C++,JS,MySQL,MERN,Python,FastAPI** | Learning **Ai/Ml**
 - 📚 Teaching **Mathematics & Programming**
 - ⚡ Fun fact: **I love solving complex problems and esports!** 🎮
 
