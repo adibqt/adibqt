@@ -16,7 +16,7 @@
 <!-- Skills -->
 ## 🚀 Tech Stack  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,c,cpp,linux,git,github,javascript,html,css,mysql,react,mongodb,express,postgresql,fastApi,python" />
+  <img src="https://skillicons.dev/icons?i=java,c,cpp,linux,git,github,javascript,html,css,mysql,react,mongodb,express,postgresql,fastApi,python,nextjs,typescript,supabase" />
 </p>
 
 ---
