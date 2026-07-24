@@ -1,14 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Adib%20Rahman&fontSize=44&fontColor=ffffff&fontAlignY=34&desc=Software%20Engineer%20%E2%80%94%20Dhaka,%20Bangladesh&descAlignY=55&descSize=15" width="100%" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&lines=Full-stack+engineer+building+applied+AI+systems;RAG+pipelines+%C2%B7+realtime+infra+%C2%B7+healthcare+tech;Fine-tuning+NLP+models+for+Bangla+%26+Banglish" alt="Typing intro" />
+<img src="./assets/banner.svg" alt="Adib Rahman — full-stack engineer, applied AI systems" width="100%" />
 
 <br/>
 
 <a href="https://www.linkedin.com/in/adib-rahman51/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:adibrahman44@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-
 
 </div>
 
@@ -16,12 +13,28 @@
 
 I build production-shaped web systems and wire real AI into them — retrieval pipelines over vector databases, multi-model LLM orchestration, and realtime infrastructure. Most of my work lands in **healthcare**, **team collaboration**, and **Bangla / Banglish language products**.
 
-- Software Engineering undergrad at **Islamic University of Technology** 
+- Software Engineering undergrad at **Islamic University of Technology**
 - Shipped production frontend and backend as a **Software Engineer Intern at ADN DigiNet Ltd.**
 - Two independent RAG systems in production projects — **ChromaDB** and **pgvector + IVFFlat**
 - Fine-tuned **XLM-RoBERTa** on a custom Banglish dataset, because off-the-shelf models don't understand how Bangladesh actually types
 
+---
 
+## How I build
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#122b3a','primaryTextColor':'#e2e8f0','primaryBorderColor':'#38bdf8','lineColor':'#38bdf8','secondaryColor':'#0e2230','tertiaryColor':'#0b1622','fontFamily':'ui-monospace, monospace','fontSize':'13px'}}}%%
+flowchart LR
+    A["Input<br/>text · voice · Banglish"] --> B["Next.js / React<br/>optimistic UI + offline queue"]
+    B --> C["FastAPI · Express<br/>auth · orchestration"]
+    C --> D["Retrieval<br/>ChromaDB · pgvector"]
+    C --> E["LLM layer<br/>Gemini · Groq LLaMA 4"]
+    D --> E
+    E --> F["Grounded output"]
+    C --> G["Realtime<br/>Socket.io · LiveKit WebRTC"]
+    F --> B
+    G --> B
+```
 
 ---
 
@@ -39,6 +52,13 @@ I build production-shaped web systems and wire real AI into them — retrieval p
 ---
 
 ## Selected Work
+
+<div align="center">
+
+<a href="https://github.com/adibqt/BackfireOS"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=adibqt&repo=BackfireOS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&cache_seconds=86400" alt="Backfire OS" /></a>
+<a href="https://github.com/adibqt/MedNexus"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=adibqt&repo=MedNexus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&cache_seconds=86400" alt="MedNexus" /></a>
+
+</div>
 
 ### ◆ Backfire OS — adversarial brand simulation engine
 *Champion track entry, Infinity AI Buildfest 2026 · MarTech*
@@ -81,7 +101,7 @@ Shared goals and milestones, rich-text announcements, and action items on a drag
 
 `Next.js 14` `Express` `PostgreSQL` `Prisma` `Socket.io` `Zustand` `Docker`
 
- [**Code**](https://github.com/adibqt/team_hub)
+[**Code**](https://github.com/adibqt/team_hub)
 
 <br/>
 
@@ -89,8 +109,6 @@ Shared goals and milestones, rich-text announcements, and action items on a drag
 <summary><b>More projects</b></summary>
 
 <br/>
-
-
 
 **MachMangsho** — MERN grocery delivery app
 Product catalog across dairy, bakery, grains, instant foods, vegetables and beverages; order management with realtime tracking and cash-on-delivery; seller dashboard with live sales statistics; Stripe payments, Cloudinary image hosting, JWT/Bcrypt role-based auth.
@@ -119,7 +137,7 @@ Product catalog across dairy, bakery, grains, instant foods, vegetables and beve
 | **18th worldwide** | University Rover Challenge 2025, USA — on-site finalist |
 | **Top 15 / 51 teams** | IIUC NextGen Hackathon 2025 — finalist |
 | **On-site finalist** | BUBT InnovateX Hackathon 2025 |
-| **Finalist** | CUET Sciblitz 2.0 AI Hackathon- On-site Finalist. |
+| **On-site finalist** | CUET Sciblitz 2.0 AI Hackathon |
 
 ---
 
@@ -135,12 +153,10 @@ Documentation and PR, plus internal coordination across multiple sub-teams.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=adibqt&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&cache_seconds=86400" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adibqt&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&cache_seconds=86400" alt="Top languages" />
 
 <br/><br/>
-
-
 
 <a href="mailto:adibrahman44@gmail.com"><img src="https://img.shields.io/badge/adibrahman44@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://www.linkedin.com/in/adib-rahman51/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
