@@ -150,8 +150,11 @@ Documentation and PR, plus internal coordination across multiple sub-teams.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=adibqt&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&cache_seconds=86400" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adibqt&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&cache_seconds=86400" alt="Top languages" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=adibqt&theme=github_dark" alt="Stats" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adibqt&theme=github_dark" alt="Repos per language" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=adibqt&theme=github_dark" alt="Most committed language" />
+
+</div>
 
 <br/><br/>
 
