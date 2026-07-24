@@ -53,10 +53,7 @@ flowchart LR
 
 ## Selected Work
 
-<div align="center">
 
-<a href="https://github.com/adibqt/BackfireOS"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=adibqt&repo=BackfireOS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&cache_seconds=86400" alt="Backfire OS" /></a>
-<a href="https://github.com/adibqt/MedNexus"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=adibqt&repo=MedNexus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&cache_seconds=86400" alt="MedNexus" /></a>
 
 </div>
 
